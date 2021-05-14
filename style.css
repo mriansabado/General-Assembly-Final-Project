@@ -1,0 +1,106 @@
+/* Small Devices sm */
+@media (min-width: 5px) {
+
+    /* Nav Section sm */
+    .nav {
+        align-items: center;
+        height: 10vh;
+        background-color: rgb(212, 212, 255);
+    }
+
+    
+    /* Banner Section */
+   .banner-container {
+       display: flex;
+       align-items: center;
+       background-color: rgb(240, 225, 205);
+       height: 85vh;
+   }
+
+   .btn {
+       margin-top: 20px;
+       margin-left: 20px;
+   }
+
+   /* About Me Section sm */
+   .about-me-container {
+       
+       align-items: center;
+       background-color: coral;
+       height: 400px;
+   }
+
+   .head-text {
+       display: flex;
+       justify-content: center;
+       margin-bottom: 30px;
+   }
+
+   .about-text {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       margin-left: 20px;
+       margin-right: 20px;
+       
+   }
+
+   /* Cards Section */
+   .card-1 {
+       height: 400px;
+       object-fit: contain;
+   }
+
+   .card-2 {
+       height: 400px;
+       object-fit: contain;
+   }
+
+   .card-title {
+       display: flex;
+       justify-content: center;
+   }
+
+   .card-text {
+    
+   }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium Devices */
+@media (min-width: 576px) {
+   .banner-container {
+       background-color: blue;
+   }
+}
+
+/* Large Devices */
+@media (min-width: 992px) {
+ .banner-container {
+     background-color: green;
+ }
+}
+
+/* Extra Large Devices */
+@media (min-width: 1200px) {
+    .banner-container {
+        background-color: yellow;
+    }
+}
