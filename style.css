@@ -13,7 +13,9 @@
    .banner-container {
        display: flex;
        align-items: center;
-       background-color: rgb(240, 225, 205);
+       background-image: url("./test.jpg");
+       background-repeat: none;
+       object-fit: fill;
        height: 85vh;
    }
 
@@ -28,6 +30,7 @@
        align-items: center;
        background-color: coral;
        height: 400px;
+       
    }
 
    .head-text {
