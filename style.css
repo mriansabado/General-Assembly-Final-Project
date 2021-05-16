@@ -1,11 +1,13 @@
 /* Small Devices sm */
 @media (min-width: 5px) {
+   
 
     /* Nav Section sm */
     .nav {
         align-items: center;
         height: 10vh;
         background-color: rgb(212, 212, 255);
+        box-sizing: border-box;
     }
 
     
@@ -13,10 +15,15 @@
    .banner-container {
        display: flex;
        align-items: center;
-       background-image: url("./test.jpg");
+       background-color: bisque;
        background-repeat: none;
        object-fit: fill;
        height: 85vh;
+       box-sizing: border-box;
+   }
+
+   .banner-box1 {
+       margin-left: 20px;
    }
 
    .btn {
@@ -26,14 +33,14 @@
 
    /* About Me Section sm */
    .about-me-container {
-       
        align-items: center;
        background-color: coral;
        height: 400px;
+       box-sizing: border-box;
        
    }
 
-   .head-text {
+   .about-head-text {
        display: flex;
        justify-content: center;
        margin-bottom: 30px;
@@ -47,6 +54,22 @@
        margin-right: 20px;
        
    }
+
+   /* My Experience Section */
+   .my-experience-container {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    }
+
+    .my-experience-head-text {
+    margin-left: 20px;
+    }
+
+    .my-experience-text {
+        margin-left: 20px;
+    }
+
+
 
    /* Cards Section */
    .card-1 {
@@ -64,10 +87,36 @@
        justify-content: center;
    }
 
-   .card-text {
-    
+   .card-image-top {
+       background-size: fill;
    }
-  
+
+   /* Portfolio Section */
+
+.portfolio-container {
+    background-color: orange;
+    
+}
+
+   .portfolio-head-text {
+       display: flex;
+       justify-content: center;
+       padding-top: 100px;
+       padding-bottom: 30px;
+   }
+
+   .portfolio-text {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       margin-bottom: 30px;
+       
+   }
+
+   /* Footer Section*/
+   .footer {
+       height: 400px;
+   }
 }
 
 
