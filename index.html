@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 </head>
@@ -14,21 +16,24 @@
 <!-- Nav Section -->
     <ul class="nav nav-pills justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" href="">home</a>
+            <a class="nav-link active" href="#home-link">home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">portfolio</a>
+            <a id="" class="nav-link" href="#about-link">about</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#about-section">about</a>
+            <a id="" class="nav-link" href="#experience-link">experience</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">contact</a>
+            <a class="nav-link" href="#portfolio-link">portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact-link">contact</a>
         </li>
     </ul>
 
 <!-- Banner/ Landing Page-->
-    <section  class="container-fluid banner-container">
+    <section id="home-link" class="container-fluid banner-container">
         <div class="row">
             <div class="col banner-box1">
                 <h3>aloha</h3>
@@ -40,7 +45,7 @@
             </div>
     </section>
 <!--About Me Section  -->
-    <section id="about-section">
+    <section id="about-link">
         <div class="row about-me-container">
             <div class="col">
                 <h2 class="about-head-text">about me</h2>
@@ -48,7 +53,7 @@
             </div>
         </div>
 <!-- My Experience Section -->
-    <section>
+    <section id="experience-link">
         <div class="row my-experience-container">
             <div class="col">
                 <h2 class="my-experience-head-text">My Experience</h2>
@@ -57,7 +62,6 @@
                 </p>
             </div>
         </div>
-    </section>
         <!-- Cards -->
         <div class="card-deck">
             <div class="card">
@@ -79,7 +83,7 @@
     </section>
 
 <!-- Portfolio Section -->
-    <section>
+    <section id="portfolio-link">
         <div class="container-fluid portfolio-container">
             <div class="row portfolio-text">
                 <div class="col">
@@ -89,28 +93,28 @@
             </div>
             <div class="card-deck">
                 <div class="card">
-                    <img src="./emoji.png" alt="">
+                    <img src="./emoji.png" class="portfolio-images" alt="">
+                    <div class="card-body portfolio-cards">
+                        <h5>Project 1</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod maxime nostrum eaque saepe consequuntur nesciunt, minus dicta aliquid placeat? Soluta rerum minima mollitia obcaecati vel voluptatem voluptate corporis reprehenderit accusamus.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./emoji.png" class="portfolio-images" alt="">
                     <div class="card-body">
                         <h5>Project 1</h5>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod maxime nostrum eaque saepe consequuntur nesciunt, minus dicta aliquid placeat? Soluta rerum minima mollitia obcaecati vel voluptatem voluptate corporis reprehenderit accusamus.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./emoji.png" alt="">
+                    <img src="./emoji.png" class="portfolio-images" alt="">
                     <div class="card-body">
                         <h5>Project 1</h5>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod maxime nostrum eaque saepe consequuntur nesciunt, minus dicta aliquid placeat? Soluta rerum minima mollitia obcaecati vel voluptatem voluptate corporis reprehenderit accusamus.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./emoji.png" alt="">
-                    <div class="card-body">
-                        <h5>Project 1</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod maxime nostrum eaque saepe consequuntur nesciunt, minus dicta aliquid placeat? Soluta rerum minima mollitia obcaecati vel voluptatem voluptate corporis reprehenderit accusamus.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./emoji.png" alt="">
+                    <img src="./emoji.png" class="portfolio-images" alt="">
                     <div class="card-body">
                         <h5>Project 1</h5>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod maxime nostrum eaque saepe consequuntur nesciunt, minus dicta aliquid placeat? Soluta rerum minima mollitia obcaecati vel voluptatem voluptate corporis reprehenderit accusamus.</p>
@@ -125,13 +129,13 @@
 
 
 <!-- Contact / Footer Section -->
-    <section>
+    <section id="contact-link">
         <div class="container-fluid footer">
             <div class="row">
                 <div class="col">
-                     <h3>Lets Talk</h3>
-                     <h4>email: mriansabado@gmail.com</h4>
-                     <h4>415-971-6114</h4>
+                     <h3 class="footer-head">Lets Talk</h3>
+                     <h4 class="footer-email">email: mriansabado@gmail.com</h4>
+                     <h4 class="footer-phone">415-971-6114</h4>
                 </div>
             </div>
         </div>

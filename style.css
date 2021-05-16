@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 /* Small Devices sm */
 @media (min-width: 5px) {
    
@@ -8,6 +13,8 @@
         height: 10vh;
         background-color: rgb(212, 212, 255);
         box-sizing: border-box;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
     }
 
     
@@ -59,13 +66,21 @@
    .my-experience-container {
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
+    height: 300px;
     }
 
     .my-experience-head-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
     margin-left: 20px;
+    margin-bottom: 40px;
     }
 
     .my-experience-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
         margin-left: 20px;
     }
 
@@ -73,12 +88,14 @@
 
    /* Cards Section */
    .card-1 {
-       height: 400px;
+       min-height: 200px;
+       max-height: 200px;
        object-fit: contain;
    }
 
    .card-2 {
-       height: 400px;
+       min-height: 200px;
+       max-height: 200px;
        object-fit: contain;
    }
 
@@ -93,10 +110,16 @@
 
    /* Portfolio Section */
 
-.portfolio-container {
+    .portfolio-container {
     background-color: orange;
     
-}
+    }
+
+    .portfolio-images {
+        min-height: 200px;
+        max-height: 200px;
+        object-fit: contain;
+    }
 
    .portfolio-head-text {
        display: flex;
@@ -115,8 +138,29 @@
 
    /* Footer Section*/
    .footer {
-       height: 400px;
+       height: 300px;
    }
+
+   .footer-head {
+       display: flex;
+       justify-content: center;
+       margin-top: 100px;
+   }
+
+   .footer-email {
+    display: flex;
+    justify-content: center;
+    
+    }
+
+    .footer-phone {
+    display: flex;
+    justify-content: center;
+   
+    }
+
+   
+
 }
 
 
