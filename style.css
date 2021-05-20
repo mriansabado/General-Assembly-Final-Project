@@ -176,7 +176,8 @@ html, body {
 /* Medium Devices */
 @media (min-width: 576px) {
    .banner-container {
-       background-color: rgb(157, 157, 240);
+       background-image: url('./banner2.png');
+       background-repeat: no-repeat;
    }
 
 
@@ -213,7 +214,9 @@ html, body {
 /* Large Devices */
 @media (min-width: 992px) {
  .banner-container {
-     background-color: green;
+    background-image: url('./bannerWide3.png');
+    background-position: center;
+    background-size: 100%;
  }
 }
 
