@@ -12,7 +12,7 @@ html, body {
     .nav {
         align-items: center;
         height: 10vh;
-        background-color: #f7e225;
+        background-color: #ffffff;
         box-sizing: border-box;
         font-family: 'Quicksand', sans-serif;
         font-size: 17px;
@@ -27,9 +27,9 @@ html, body {
    .banner-container {
        display: flex;
        align-items: center;
-       background-image: url('./banner.jpg');
+       background-image: url('./banner3.jpg');
        background-repeat: none;
-       object-fit: fill;
+       background-size: cover;
        height: 850px;
        box-sizing: border-box;
    }
@@ -176,7 +176,9 @@ html, body {
 /* Medium Devices */
 @media (min-width: 576px) {
    .banner-container {
-       background-image: url('./banner2.png');
+       box-sizing: border-box;
+       background-image: url('./banner3.jpg');
+       background-size: cover;
        background-repeat: no-repeat;
    }
 
@@ -214,9 +216,10 @@ html, body {
 /* Large Devices */
 @media (min-width: 992px) {
  .banner-container {
-    background-image: url('./bannerWide3.png');
-    background-position: center;
-    background-size: 100%;
+     box-sizing: border-box;
+    background-image: url('./banner3.jpg');
+    background-size: cover;
+  
  }
 }
 
