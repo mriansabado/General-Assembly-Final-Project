@@ -50,12 +50,14 @@ html, body {
    }
 
    #head-name {
+    text-align: center;
     font-family: 'Comfortaa', cursive;
     color: blanchedalmond;
     font-size: 50px;
    }
 
    #head-title {
+    text-align: center;
     font-family: 'Prompt', sans-serif;
     color: rgb(252, 241, 224);
    }
