@@ -1,13 +1,15 @@
-const btn = document.querySelector(".btn-toggle");
+const btn = document.querySelector("#checked");
 const theme = document.querySelector("#light-theme");
 
 
 btn.addEventListener("click", function () {
     // console.log(theme.getAttribute("href"))
-    if (theme.getAttribute("href") == "./lightStyle.css") {
-        theme.href = "./darkStyle.css";
+    if (theme.getAttribute("href") == "darkStyle.css") {
+        theme.href = "lightStyle.css";
+        console.log("light")
     } else {
-        theme.href = "./lightStyle.css";
+        theme.href = "darkStyle.css";
+        console.log("dark")
     }
 });
 
