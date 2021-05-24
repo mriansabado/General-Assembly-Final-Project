@@ -5,6 +5,10 @@ html, body {
     font-family: 'Comfortaa', cursive;
 }
 
+
+/* Dark Mode */
+
+
 /* Small Devices sm */
 @media (min-width: 5px) {
    
@@ -35,6 +39,17 @@ html, body {
        height: 850px;
        box-sizing: border-box;
    }
+
+   .banner-container.dark-theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./bannerDay.png');
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 850px;
+    box-sizing: border-box;
+}
 
    .banner-box1 {
       height: 300px;
@@ -248,7 +263,7 @@ html, body {
 @media (min-width: 576px) {
    .banner-container {
        box-sizing: border-box;
-       background-image: url('./bannerDay.png');
+      
        background-size: cover;
        background-repeat: no-repeat;
    }
@@ -269,7 +284,7 @@ html, body {
 @media (min-width: 992px) {
  .banner-container {
     box-sizing: border-box;
-    background-image: url('./bannerDay.png');
+    
     background-size: cover;
   
  }
@@ -277,13 +292,10 @@ html, body {
 
 /* Extra Large Devices */
 @media (min-width: 1200px) {
-    .banner-container {
-        background-color: yellow;
-    }
+  
 }
 
 
 
 
 
-/* Dark Mode */
