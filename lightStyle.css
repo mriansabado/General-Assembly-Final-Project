@@ -71,6 +71,11 @@ html, body {
     margin: 10px;
 }
 
+.navs {
+    margin-right: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
  .switch-text {
     margin-right: 10px;
     font-family: 'Comfortaa', cursive;
@@ -254,6 +259,7 @@ html, body {
 
     .portfolio-container {
         background-color: #e66245;
+        padding-top: 50px;
     
     }
 
@@ -263,13 +269,12 @@ html, body {
         object-fit: contain;
     }
 
-   .portfolio-head-text {
+   .portfolio-head {
        display: flex;
        justify-content: center;
-       padding-top: 100px;
-       padding-bottom: 30px;
+       padding-bottom: 20px;
        font-family: 'Comfortaa', cursive;
-       color: blanchedalmond;
+       color: black;
    }
 
    .portfolio-text {
@@ -279,7 +284,6 @@ html, body {
        font-family: 'Comfortaa', cursive;
        margin-bottom: 30px;
        color: blanchedalmond;
-       
    }
 
    .portfolio-card-text {
@@ -290,7 +294,12 @@ html, body {
         margin-bottom: 30px;
         color: black;
     
-}
+    }
+
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
    /* Footer Section*/
    .footer {

@@ -71,6 +71,11 @@ html, body {
     margin: 10px;
 }
 
+.navs {
+    margin-right: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
  .switch-text {
     margin-right: 10px;
     font-family: 'Comfortaa', cursive;
@@ -263,13 +268,12 @@ html, body {
         object-fit: contain;
     }
 
-   .portfolio-head-text {
+   .portfolio-head {
        display: flex;
        justify-content: center;
-       padding-top: 100px;
-       padding-bottom: 30px;
+       padding-bottom: 20px;
        font-family: 'Comfortaa', cursive;
-       color: blanchedalmond;
+       color: black;
    }
 
    .portfolio-text {
@@ -279,7 +283,6 @@ html, body {
        font-family: 'Comfortaa', cursive;
        margin-bottom: 30px;
        color: blanchedalmond;
-       
    }
 
    .portfolio-card-text {
