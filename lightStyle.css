@@ -7,7 +7,7 @@ html, body {
 
 
 /* Small Devices sm */
-@media (min-width: 5px) {
+/* @media (min-width: 5px) { */
    
      /* Nav Section sm */
     .nav {
@@ -328,7 +328,7 @@ html, body {
         justify-content: center;
         font-family: 'Comfortaa', cursive;
     }
-}
+
 
 /* Medium Devices */
 @media (min-width: 576px) {
