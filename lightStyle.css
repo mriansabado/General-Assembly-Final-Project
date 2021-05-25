@@ -7,7 +7,6 @@ html, body {
 
 
 /* Small Devices sm */
-/* @media (min-width: 5px) { */
    
      /* Nav Section sm */
     .nav {
@@ -33,11 +32,17 @@ html, body {
         background-size: fill;
         background-repeat: no-repeat;
         height: 93vh;
+        width: 100vw;
         box-sizing: border-box;
    }
 
    .banner-box1 {
-        height: 300px;
+       display: flex;
+        min-height: 370px;
+        min-width: 355px;
+        max-width: 490px;
+        flex-wrap: wrap;
+        flex-direction: column;
         background-color: #1b3a63;
         border: 3px solid rgb(252, 223, 181);
         border-radius: 4%;
@@ -45,7 +50,6 @@ html, body {
    }
 
    .box1-content {
-        display: flex;
         justify-content: center;
         margin-top: 20px; 
    }
@@ -54,7 +58,7 @@ html, body {
         text-align: center;
         font-family: 'Comfortaa', cursive;
         color: blanchedalmond;
-        font-size: 50px;
+        font-size: 7vh;
    }
 
    #head-title {
@@ -66,13 +70,14 @@ html, body {
    /* The switch - the box around the slider */
 .button-container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin: 10px;
 }
 
 .navs {
-    margin-right: 5px;
+    display: flex;
+    margin: 5px;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -86,7 +91,7 @@ html, body {
     position: relative;
     display: inline-block;
     width: 60px;
-    height: 34px;
+    height: 30px;
   }
   
   /* Hide default HTML checkbox */
@@ -144,13 +149,7 @@ html, body {
     border-radius: 50%;
   }
 
-
-
-
-
-
-
-
+/* Nav Buttons */
 
    #about-link {
        color: white;
@@ -175,9 +174,10 @@ html, body {
    
    /* About Me Section sm */
    .about-me-container {
+       display: flex; 
        align-items: center;
        background-color: #e19a59;
-       height: 400px;
+    
        box-sizing: border-box;
    }
 
@@ -194,17 +194,16 @@ html, body {
        justify-content: center;
        text-align: center;
        font-family: 'Comfortaa', cursive;
-       margin-left: 20px;
-       margin-right: 20px;
        color: white;
        
    }
 
    /* My Experience Section */
    .my-experience-container {
+       display: flex;
         background-color: #1b3a63;
         box-sizing: border-box;
-        height: 300px;
+       
     }
 
     .my-experience-head-text {
@@ -318,6 +317,7 @@ html, body {
    .footer-email {
         color: #f7e225;
         display: flex;
+        text-align: center;
         justify-content: center;
         font-family: 'Comfortaa', cursive;
     }
@@ -330,22 +330,9 @@ html, body {
     }
 
 
+
+    
 /* Medium Devices */
-@media (min-width: 576px) {
-   .banner-container {
-       box-sizing: border-box;
-      
-       background-size: cover;
-       background-repeat: no-repeat;
-   }
-
-
-
-   /* Portfolio Section */
-   .portfolio-container {
-        background-color: #e66245;
-    }
-}
 
 /* Large Devices */
 @media (min-width: 992px) {
