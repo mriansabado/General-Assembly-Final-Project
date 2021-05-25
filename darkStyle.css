@@ -28,7 +28,7 @@ html, body {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url('./bannerDay.png');
+        background-image: url('./bannerNight.png');
         background-size: fill;
         background-repeat: no-repeat;
         height: 93vh;
