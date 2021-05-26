@@ -3,6 +3,8 @@ html, body {
     padding: 0;
     scroll-behavior: smooth;
     font-family: 'Comfortaa', cursive;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 
@@ -32,7 +34,7 @@ html, body {
         background-size: fill;
         background-repeat: no-repeat;
         height: 93vh;
-        width: 100vw;
+        width: 100%;
         box-sizing: border-box;
    }
 
@@ -70,6 +72,7 @@ html, body {
    /* The switch - the box around the slider */
 .button-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     margin: 10px;
@@ -177,7 +180,6 @@ html, body {
        display: flex; 
        align-items: center;
        background-color: #e19a59;
-    
        box-sizing: border-box;
    }
 
@@ -187,6 +189,7 @@ html, body {
        margin-bottom: 30px;
        font-family: 'Comfortaa', cursive;
        color: white;
+       padding-top: 20px;
    }
 
    .about-text {
@@ -199,8 +202,14 @@ html, body {
    }
 
    /* My Experience Section */
+   .card-deck {
+    margin-bottom: 10px;
+}
+
+
    .my-experience-container {
        display: flex;
+       flex-wrap: wrap;
         background-color: #1b3a63;
         box-sizing: border-box;
        
@@ -225,17 +234,19 @@ html, body {
         color: blanchedalmond;
     }
 
+
    /* Cards Section */
+
     .card-deck {
         background-color: #1b3a63;
     }
 
    .card-1 {
+       max-width: 600px;
        min-height: 200px;
        max-height: 200px;
        object-fit: contain;
    }
-
    .card-2 {
        min-height: 200px;
        max-height: 200px;
@@ -337,15 +348,93 @@ html, body {
 
 
     
-/* Medium Devices */
-
-/* Large Devices */
-@media (min-width: 992px) {
- .banner-container {
-    box-sizing: border-box; 
-    background-size: cover;
- }
+/* (M) Medium Devices */
+@media (min-width: 476px) {
+    /* Banner Section (M) */
+    .banner-box1 {
+         min-height: 300px;
+    }
 }
+
+@media (min-width: 576px) {
+   
+}
+
+
+/* (L) Large Devices */
+@media (min-width: 992px) {
+    /* Banner Section (L) */
+.banner-container {
+     box-sizing: border-box; 
+    }
+
+    /* About Me Section (L) */
+.about-me-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 1300px;
+ }
+
+ #about-link-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e19a59;
+ }
+
+ .about-text {
+     padding-bottom: 20px;
+
+ }
+/* My Experience Section (L) */
+#experience-link-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1b3a63;
+    
+}
+
+ .my-experience-container {
+    display: flex;
+     background-color: #1b3a63;
+     box-sizing: border-box;
+     max-width: 1300px;
+    
+ }
+
+ .my-experience-head-text {
+     display: flex;
+     justify-content: center;
+     font-family: 'Comfortaa', cursive;
+     margin-top: 40px;
+     margin-left: 20px;
+     margin-bottom: 40px;
+     color: blanchedalmond;
+ }
+
+ .my-experience-text {
+     display: flex;
+     justify-content: center;
+     font-family: 'Comfortaa', cursive;
+     text-align: center;
+     margin-left: 20px;
+     color: blanchedalmond;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
 
 /* Extra Large Devices */
 @media (min-width: 1200px) {
