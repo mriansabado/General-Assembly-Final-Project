@@ -391,7 +391,7 @@ html, body {
     display: flex;
      background-color: #1b3a63;
      box-sizing: border-box;
-     max-width: 1200px;
+     max-width: 1300px;
     
  }
 
@@ -417,11 +417,6 @@ html, body {
  .card-deck {
     margin-bottom: 10px;
 }
-
-.portfolio-text {
-    max-width: 1200px;
-}
-
 
 
 
