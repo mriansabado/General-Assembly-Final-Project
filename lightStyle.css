@@ -278,28 +278,27 @@ html, body {
     
     }
 
-    .portfolio-images {
-        min-height: 200px;
-        max-height: 200px;
-        object-fit: contain;
+    .portfolio-info-container {
+        display: flex;
+        justify-content: center;
+        background-color: pink;
     }
 
-   .portfolio-head {
-       display: flex;
-       justify-content: center;
-       padding-bottom: 20px;
-       font-family: 'Comfortaa', cursive;
-       color: black;
+   .portfolio-head-text {
+       
    }
 
    .portfolio-text {
-       display: flex;
-       justify-content: center;
-       text-align: center;
-       font-family: 'Comfortaa', cursive;
-       margin-bottom: 30px;
-       color: blanchedalmond;
+       
    }
+
+   .portfolio-images {
+    min-height: 200px;
+    max-height: 250px;
+    padding-top: 10px;
+    object-fit: contain;
+}
+
 
    .portfolio-card-text {
         display: flex;
@@ -421,10 +420,7 @@ html, body {
      color: blanchedalmond;
  }
 
- .portfolio-text {
-    max-width: 1200px;
-}
-
+ 
 
 
 

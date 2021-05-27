@@ -276,7 +276,8 @@ html, body {
 
     .portfolio-images {
         min-height: 200px;
-        max-height: 200px;
+        max-height: 250px;
+        padding-top: 10px;
         object-fit: contain;
     }
 
