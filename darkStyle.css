@@ -155,23 +155,23 @@ html, body {
 /* Nav Buttons */
 
    #about-link {
-       color: rgb(255, 247, 234);
-       background-color:#9b5fa8;
+       color: white;
+       background-color:#e19a59;
    }
 
    #experience-link {   
-       color: rgb(255, 247, 234);
-       background-color: #a59f83;
+       color: black;
+       background-color: blanchedalmond;
    }
 
    #portfolio-link {
-       color: rgb(255, 247, 234);
-       background-color: #e7aa3e;
+       color: white;
+       background-color: #e66245;
    }
 
    #contact-link {
-       color: rgb(255, 247, 234);
-       background-color: #0e2b5f;
+       color: white;
+       background-color: #315cd3;
    }
    
    
@@ -179,7 +179,7 @@ html, body {
    .about-me-container {
        display: flex; 
        align-items: center;
-       background-color: #9b5fa8;
+       background-color: #e19a59;
        box-sizing: border-box;
    }
 
@@ -188,7 +188,7 @@ html, body {
        justify-content: center;
        margin-bottom: 30px;
        font-family: 'Comfortaa', cursive;
-       color: rgb(255, 247, 234);
+       color: white;
        padding-top: 20px;
    }
 
@@ -197,11 +197,16 @@ html, body {
        justify-content: center;
        text-align: center;
        font-family: 'Comfortaa', cursive;
-       color: rgb(255, 247, 234);
+       color: white;
        
    }
 
    /* My Experience Section */
+   .card-deck {
+    margin-bottom: 10px;
+}
+
+
    .my-experience-container {
        display: flex;
        flex-wrap: wrap;
@@ -229,8 +234,8 @@ html, body {
         color: blanchedalmond;
     }
 
+
    /* Cards Section */
-    .my-experience-card {}
 
     .card-deck {
         background-color: #1b3a63;
@@ -242,7 +247,6 @@ html, body {
        max-height: 200px;
        object-fit: contain;
    }
-
    .card-2 {
        min-height: 200px;
        max-height: 200px;
@@ -274,29 +278,29 @@ html, body {
     
     }
 
+    .portfolio-info-container {
+        display: flex;
+        justify-content: center;
+    }
+
     .portfolio-images {
         min-height: 200px;
         max-height: 250px;
         padding-top: 10px;
         object-fit: contain;
     }
-
-   .portfolio-head {
+    
+   .portfolio-head-text {
        display: flex;
        justify-content: center;
-       padding-bottom: 20px;
-       font-family: 'Comfortaa', cursive;
-       color: black;
+       color: blanchedalmond;
    }
 
    .portfolio-text {
-       display: flex;
-       justify-content: center;
-       text-align: center;
-       font-family: 'Comfortaa', cursive;
-       margin-bottom: 30px;
        color: blanchedalmond;
    }
+
+  
 
    .portfolio-card-text {
         display: flex;
@@ -353,6 +357,10 @@ html, body {
     }
 }
 
+@media (min-width: 576px) {
+   
+}
+
 
 /* (L) Large Devices */
 @media (min-width: 992px) {
@@ -366,13 +374,14 @@ html, body {
      display: flex;
      justify-content: center;
      align-items: center;
-     max-width: 1300px;
+     margin-left: 10vw;
+     margin-right: 10vw;
  }
 
  #about-link-nav {
     display: flex;
     justify-content: center;
-    background-color: #9b5fa8;
+    background-color: #e19a59;
  }
 
  .about-text {
@@ -414,9 +423,14 @@ html, body {
      color: blanchedalmond;
  }
 
- .card-deck {
-    margin-bottom: 10px;
-}
+ .portfolio-text {
+     display: flex;
+     justify-content: center;
+     margin-left: 10vw;
+     margin-right: 10vw;
+     color: blanchedalmond;
+
+ }
 
 
 
