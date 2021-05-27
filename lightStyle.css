@@ -60,13 +60,14 @@ html, body {
         text-align: center;
         font-family: 'Comfortaa', cursive;
         color: blanchedalmond;
-        font-size: 7vh;
+        font-size: 50px;
    }
 
    #head-title {
         text-align: center;
         font-family: 'Prompt', sans-serif;
         color: blanchedalmond;
+        font-size: 40px ;
    }
 /* Toggle Switch for Dark Mode */
    /* The switch - the box around the slider */
@@ -86,7 +87,7 @@ html, body {
 
  .switch-text {
     margin-right: 10px;
-    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
     color: blanchedalmond;
 }
 
@@ -160,8 +161,8 @@ html, body {
    }
 
    #experience-link {   
-       color: black;
-       background-color: blanchedalmond;
+       color: white;
+       background-color: #e7aa3e;
    }
 
    #portfolio-link {
@@ -190,6 +191,7 @@ html, body {
        font-family: 'Comfortaa', cursive;
        color: white;
        padding-top: 20px;
+       font-size: 40px;
    }
 
    .about-text {
@@ -200,6 +202,7 @@ html, body {
        color: white;
        margin-left: 10vw;
        margin-right: 10vw;
+       font-size: 20px;
        
    }
 
@@ -221,6 +224,7 @@ html, body {
         display: flex;
         justify-content: center;
         font-family: 'Comfortaa', cursive;
+        font-size: 30px;
         margin-top: 40px;
         margin-left: 20px;
         margin-bottom: 40px;
@@ -231,6 +235,7 @@ html, body {
         display: flex;
         justify-content: center;
         font-family: 'Comfortaa', cursive;
+        font-size: 20px;
         text-align: center;
         margin-left: 5vw;
         margin-right: 5vw;
@@ -242,6 +247,7 @@ html, body {
 
     .card-deck {
         background-color: #1b3a63;
+        
     }
 
    .card-1 {
@@ -286,6 +292,8 @@ html, body {
         justify-content: center;
     }
 
+    
+
     .portfolio-images {
         min-height: 200px;
         max-height: 250px;
@@ -293,16 +301,18 @@ html, body {
         object-fit: contain;
     }
     
-   .portfolio-head {
+   .portfolio-head-text {
        display: flex;
        justify-content: center;
-       color: black;
+       font-size: 30px;
+       font-family: 'Comfortaa', cursive;   
    }
 
    .portfolio-text {
        text-align: center;
        color: blanchedalmond;
        font-family: 'Comfortaa', cursive;
+       font-size: 20px;
    }
 
   .portfolio-card-head {
@@ -313,6 +323,7 @@ html, body {
       font-weight: bold;
       margin-bottom: 10px;
       text-align: center;
+      font-family: 'Comfortaa', cursive;   
 
   }
 

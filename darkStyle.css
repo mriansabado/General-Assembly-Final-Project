@@ -60,13 +60,14 @@ html, body {
         text-align: center;
         font-family: 'Comfortaa', cursive;
         color: blanchedalmond;
-        font-size: 7vh;
+        font-size: 50px;
    }
 
    #head-title {
         text-align: center;
         font-family: 'Prompt', sans-serif;
         color: blanchedalmond;
+        font-size: 40px ;
    }
 /* Toggle Switch for Dark Mode */
    /* The switch - the box around the slider */
@@ -86,7 +87,7 @@ html, body {
 
  .switch-text {
     margin-right: 10px;
-    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
     color: blanchedalmond;
 }
 
@@ -155,22 +156,22 @@ html, body {
 /* Nav Buttons */
 
    #about-link {
-       color: white;
-       background-color:#e19a59;
+       color: black;
+       background-color:#9b5fa8;
    }
 
    #experience-link {   
        color: black;
-       background-color: blanchedalmond;
+       background-color: #e7aa3e;
    }
 
    #portfolio-link {
-       color: white;
+       color: black;
        background-color: #e66245;
    }
 
    #contact-link {
-       color: white;
+       color: black;
        background-color: #315cd3;
    }
    
@@ -179,7 +180,7 @@ html, body {
    .about-me-container {
        display: flex; 
        align-items: center;
-       background-color: #e19a59;
+       background-color: #9b5fa8;
        box-sizing: border-box;
    }
 
@@ -188,8 +189,9 @@ html, body {
        justify-content: center;
        margin-bottom: 30px;
        font-family: 'Comfortaa', cursive;
-       color: white;
+       color: blanchedalmond;
        padding-top: 20px;
+       font-size: 40px;
    }
 
    .about-text {
@@ -197,7 +199,10 @@ html, body {
        justify-content: center;
        text-align: center;
        font-family: 'Comfortaa', cursive;
-       color: white;
+       color: blanchedalmond;
+       margin-left: 10vw;
+       margin-right: 10vw;
+       font-size: 20px;
        
    }
 
@@ -219,6 +224,7 @@ html, body {
         display: flex;
         justify-content: center;
         font-family: 'Comfortaa', cursive;
+        font-size: 30px;
         margin-top: 40px;
         margin-left: 20px;
         margin-bottom: 40px;
@@ -229,8 +235,10 @@ html, body {
         display: flex;
         justify-content: center;
         font-family: 'Comfortaa', cursive;
+        font-size: 20px;
         text-align: center;
-        margin-left: 20px;
+        margin-left: 5vw;
+        margin-right: 5vw;
         color: blanchedalmond;
     }
 
@@ -283,6 +291,8 @@ html, body {
         justify-content: center;
     }
 
+    
+
     .portfolio-images {
         min-height: 200px;
         max-height: 250px;
@@ -293,14 +303,29 @@ html, body {
    .portfolio-head-text {
        display: flex;
        justify-content: center;
-       color: blanchedalmond;
+       font-size: 30px;
+       font-family: 'Comfortaa', cursive;
+       color: blanchedalmond;   
    }
 
    .portfolio-text {
+       text-align: center;
        color: blanchedalmond;
+       font-family: 'Comfortaa', cursive;
+       font-size: 20px;
    }
 
-  
+  .portfolio-card-head {
+      display: flex;
+      justify-content: center;
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+      font-family: 'Comfortaa', cursive;
+
+  }
 
    .portfolio-card-text {
         display: flex;
