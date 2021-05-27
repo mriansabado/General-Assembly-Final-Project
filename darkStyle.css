@@ -281,7 +281,7 @@ html, body {
    /* Portfolio Section */
 
     .portfolio-container {
-        background-color: #e66245;
+        background-color: #b44b44;
         padding-top: 50px;
     
     }
@@ -345,7 +345,7 @@ html, body {
    /* Footer Section*/
    .footer {
        height: 300px;
-       background-color: #315cd3;
+       background-color: #3b72a1;
    }
 
    .footer-head {
