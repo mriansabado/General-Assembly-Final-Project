@@ -421,6 +421,9 @@ html, body {
      color: blanchedalmond;
  }
 
+ .portfolio-text {
+    max-width: 1200px;
+}
 
 
 
