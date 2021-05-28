@@ -278,6 +278,13 @@ html, body {
         color: black;
    }
 
+   .linkedIn-link {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+
    /* Portfolio Section */
 
     .portfolio-container {
