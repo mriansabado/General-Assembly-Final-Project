@@ -265,7 +265,7 @@ html, body {
        display: flex;
        justify-content: center;
        font-family: 'Comfortaa', cursive;
-       color: black;
+       color: blanchedalmond;
    }
 
    .card-image-top {
@@ -275,7 +275,11 @@ html, body {
    .card-text {
         font-family: 'Comfortaa', cursive;
         text-align: center;
-        color: black;
+        color: blanchedalmond;
+   }
+
+   .card-body {
+       background-color: #8d8d8d;
    }
 
    .linkedIn-link {
@@ -283,13 +287,13 @@ html, body {
     justify-content: center;
     font-family: 'Comfortaa', cursive;
     font-size: 30px;
-    color: #2d64bb;
+    color: #0062ff;
     }
 
    /* Portfolio Section */
 
     .portfolio-container {
-        background-color: #b44b44;
+        background-color: #e66245;
         padding-top: 50px;
     
     }
@@ -306,6 +310,7 @@ html, body {
         max-height: 250px;
         padding-top: 10px;
         object-fit: contain;
+        background-color: black;
     }
     
    .portfolio-head-text {
@@ -326,7 +331,7 @@ html, body {
   .portfolio-card-head {
       display: flex;
       justify-content: center;
-      color: black;
+      color: blanchedalmond;
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 10px;
@@ -341,13 +346,17 @@ html, body {
         text-align: center;
         font-family: 'Comfortaa', cursive;
         margin-bottom: 30px;
-        color: black;
+        color: blanchedalmond;
     
     }
 
     .card {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    #gaDark {
+        background-color: black;
     }
 
    /* Footer Section*/

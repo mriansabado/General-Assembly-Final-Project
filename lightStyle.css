@@ -279,6 +279,10 @@ html, body {
         color: black;
    }
 
+   .card-body {
+       background-color: white;
+   }
+
    .linkedIn-link {
        display: flex;
        justify-content: center;
@@ -306,6 +310,7 @@ html, body {
         max-height: 250px;
         padding-top: 10px;
         object-fit: contain;
+        background-color: white;
     }
     
    .portfolio-head-text {
@@ -349,6 +354,9 @@ html, body {
         margin-bottom: 10px;
     }
 
+    #gaDark {
+        background-color: black;
+    }
    /* Footer Section*/
    .footer {
        height: 300px;
