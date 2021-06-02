@@ -266,6 +266,7 @@ html, body {
        justify-content: center;
        font-family: 'Comfortaa', cursive;
        color: blanchedalmond;
+       text-decoration: underline;
    }
 
    .card-image-top {
@@ -337,6 +338,7 @@ html, body {
       margin-bottom: 10px;
       text-align: center;
       font-family: 'Comfortaa', cursive;
+      text-decoration: underline;
 
   }
 
