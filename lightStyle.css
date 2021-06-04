@@ -179,21 +179,35 @@ html, body {
    /* About Me Section sm */
    .about-me-container {
        display: flex; 
+       flex-direction: column;
+       justify-content: center;
        align-items: center;
-       background-color: #e19a59;
+       background-color: white;
        box-sizing: border-box;
+       background-color: wheat;
    }
 
    .about-head-text {
-       display: flex;
-       justify-content: center;
-       margin-bottom: 30px;
        font-family: 'Comfortaa', cursive;
        color: white;
        padding-top: 20px;
        font-size: 40px;
    }
 
+   .about-me-text-container {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+   }
+
+   .about-me-col {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       flex-direction: column;
+       background-color: #e19859;
+   }
    .about-text {
        display: flex;
        justify-content: center;
@@ -203,8 +217,22 @@ html, body {
        margin-left: 10vw;
        margin-right: 10vw;
        font-size: 20px;
-       
    }
+
+   .profile-photo {
+    height: 300px;
+    width: 400px;
+    
+   }
+
+   .profile-photo-container {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       background-color: pink;
+       margin-bottom: 50px;
+   }
+
 
    /* My Experience Section */
    .card-deck {
@@ -223,6 +251,7 @@ html, body {
     .my-experience-head-text {
         display: flex;
         justify-content: center;
+        align-items: center;
         font-family: 'Comfortaa', cursive;
         font-size: 30px;
         margin-top: 40px;
@@ -234,6 +263,7 @@ html, body {
     .my-experience-text {
         display: flex;
         justify-content: center;
+        align-items: center;
         font-family: 'Comfortaa', cursive;
         font-size: 20px;
         text-align: center;
@@ -449,7 +479,7 @@ html, body {
      justify-content: center;
      font-family: 'Comfortaa', cursive;
      margin-top: 40px;
-     margin-left: 20px;
+     /* margin-left: 20px; */
      margin-bottom: 40px;
      color: blanchedalmond;
  }
@@ -459,7 +489,7 @@ html, body {
      justify-content: center;
      font-family: 'Comfortaa', cursive;
      text-align: center;
-     margin-left: 20px;
+     /* margin-left: 20px; */
      color: blanchedalmond;
  }
 
