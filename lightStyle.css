@@ -178,14 +178,11 @@ html, body {
    
    /* About Me Section sm */
    .about-me-container {
-       display: flex; 
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       background-color: white;
-       box-sizing: border-box;
-       background-color: wheat;
-   }
+    display: flex; 
+    align-items: center;
+    background-color: #9b5fa8;
+    box-sizing: border-box;
+}
 
    .about-head-text {
        font-family: 'Comfortaa', cursive;
@@ -446,13 +443,13 @@ html, body {
     }
 
     /* About Me Section (L) */
-.about-me-container {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-left: 10vw;
-     margin-right: 10vw;
- }
+    .about-me-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
 
  #about-link-nav {
     display: flex;
